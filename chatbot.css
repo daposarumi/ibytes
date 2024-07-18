@@ -1,0 +1,709 @@
+.left-arrow-24-outline {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .chat-with-ella {
+    text-decoration: none;
+    position: relative;
+    font-weight: 600;
+    color: inherit;
+    text-align: center;
+    white-space: nowrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .left-arrow-24-outline-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .left-arrow-24-outline-parent {
+    align-self: stretch;
+    box-shadow: var(--light-shadow);
+    background-color: var(--color-white);
+    flex-direction: row;
+    padding: var(--padding-2xl) var(--padding-4xl) 20px;
+    gap: 317.5px;
+    flex-shrink: 0;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    text-align: center;
+    font-size: var(--heading-4-size);
+    color: var(--primary);
+    font-family: var(--heading-4);
+  }
+  .spacer-icon {
+    height: 48px;
+    width: 48px;
+    position: relative;
+    border-radius: var(--br-81xl);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .hi-ibrahim-please {
+    align-self: stretch;
+    position: relative;
+  }
+  .horizontal-stack,
+  .message,
+  .padding {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .message {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-3xs) 0 0;
+    box-sizing: border-box;
+    min-width: 190px;
+  }
+  .horizontal-stack,
+  .padding {
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .horizontal-stack {
+    width: 350px;
+    flex-wrap: wrap;
+    gap: var(--gap-3xs);
+  }
+  .padding {
+    align-self: stretch;
+  }
+  .lagos {
+    position: relative;
+    display: inline-block;
+    min-width: 41px;
+  }
+  .chat-blob {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: var(--br-5xs) 0 var(--br-5xs) var(--br-5xs);
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-lgi) var(--padding-4xl);
+  }
+  .m {
+    flex: 1;
+    position: relative;
+  }
+  .chat-input,
+  .user-initial {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .user-initial {
+    height: 48px;
+    width: 48px;
+    border-radius: var(--br-81xl);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #fff;
+    overflow: hidden;
+    flex-shrink: 0;
+    padding: var(--padding-5xs) var(--padding-3xs) var(--padding-4xl);
+    box-sizing: border-box;
+    font-size: var(--body-small-bold-size);
+  }
+  .chat-input {
+    gap: var(--gap-3xs);
+    text-align: center;
+    color: var(--color-white);
+  }
+  .content,
+  .vertical-padding {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .vertical-padding {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 34.5px;
+  }
+  .content {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 0 0 6px;
+    box-sizing: border-box;
+  }
+  .spacer-icon1 {
+    height: 48px;
+    width: 48px;
+    position: relative;
+    border-radius: var(--br-81xl);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .blank-line,
+  .blank-line1,
+  .great-lagos-is,
+  .please-select-your-budget-for {
+    margin: 0;
+  }
+  .high-budget-over-300-per-nig1 {
+    margin-bottom: 0;
+  }
+  .high-budget-over-300-per-nig {
+    margin: 0;
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .blank-line2 {
+    margin: 0;
+  }
+  .mid-budget-150-300-per-ni1 {
+    margin-bottom: 0;
+  }
+  .mid-budget-150-300-per-ni {
+    margin: 0;
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .blank-line3 {
+    margin: 0;
+  }
+  .low-budget-below-150-per-nig {
+    margin: 0;
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .great-lagos-is-container {
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    min-width: 413px;
+    max-width: 100%;
+  }
+  .chat-response,
+  .content-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .chat-response {
+    width: 694px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap-3xs);
+  }
+  .content-parent {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .mid-budget {
+    position: relative;
+    display: inline-block;
+    min-width: 83px;
+  }
+  .chat-blob1 {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: var(--br-5xs) 0 var(--br-5xs) var(--br-5xs);
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-lgi) 9px;
+  }
+  .m1 {
+    flex: 1;
+    position: relative;
+  }
+  .horizontal-stack1,
+  .user-initial1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .user-initial1 {
+    height: 48px;
+    width: 48px;
+    border-radius: var(--br-81xl);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #fff;
+    overflow: hidden;
+    flex-shrink: 0;
+    padding: var(--padding-5xs) var(--padding-3xs) var(--padding-4xl);
+    box-sizing: border-box;
+    font-size: var(--body-small-bold-size);
+  }
+  .horizontal-stack1 {
+    gap: var(--gap-3xs);
+  }
+  .spacer-icon2 {
+    height: 48px;
+    width: 48px;
+    position: relative;
+    border-radius: var(--br-81xl);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .blank-line4,
+  .blank-line5,
+  .here-are-the-top-five-hotels-i,
+  .youve-selected-a {
+    margin: 0;
+  }
+  .radisson-blu-anchorage-hotel1 {
+    margin-bottom: 0;
+  }
+  .radisson-blu-anchorage-hotel {
+    margin: 0;
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .blank-line6 {
+    margin: 0;
+  }
+  .eko-hotel-suites-lagos1 {
+    margin-bottom: 0;
+  }
+  .eko-hotel-suites-lagos {
+    margin: 0;
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .blank-line7 {
+    margin: 0;
+  }
+  .southern-sun-ikoyi-lagos1 {
+    margin-bottom: 0;
+  }
+  .southern-sun-ikoyi-lagos {
+    margin: 0;
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .blank-line8 {
+    margin: 0;
+  }
+  .protea-hotel-by-marriott-lagos1 {
+    margin-bottom: 0;
+  }
+  .protea-hotel-by-marriott-lagos {
+    margin: 0;
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .blank-line9 {
+    margin: 0;
+  }
+  .the-george-lagos {
+    margin: 0;
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .youve-selected-a-container {
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    max-width: calc(100% - 58px);
+  }
+  .content2 {
+    height: 149px;
+    width: 616px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 0 101px;
+    box-sizing: border-box;
+    gap: var(--gap-3xs);
+  }
+  .bot-response,
+  .content1,
+  .content2 {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .bot-response {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    color: var(--background-gray);
+  }
+  .content1 {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 3px;
+  }
+  .budget-selection {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-10xs);
+    box-sizing: border-box;
+    text-align: center;
+    color: var(--color-white);
+  }
+  .budget-selection,
+  .container,
+  .vertical-stack {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .vertical-stack {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-6xl);
+  }
+  .container {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-base) 119px 12px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+  }
+  .padding-icon {
+    height: 48px;
+    width: 48px;
+    position: relative;
+    border-radius: var(--br-81xl);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .please-select-a {
+    height: 19px;
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+  }
+  .chat-blob2,
+  .vertical-padding1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .chat-blob2 {
+    flex: 1;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.05));
+    border-radius: 0 var(--br-5xs) var(--br-5xs) var(--br-5xs);
+    padding: 10.5px var(--padding-base);
+    box-sizing: border-box;
+    min-width: 272px;
+  }
+  .vertical-padding1 {
+    width: 476px;
+    flex-wrap: wrap;
+    gap: var(--gap-3xs);
+  }
+  .content4,
+  .eko-hotel {
+    align-self: stretch;
+    display: flex;
+  }
+  .content4 {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .eko-hotel {
+    flex: 1;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+  .chat-blob3 {
+    height: 57px;
+    flex: 1;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: var(--br-5xs) 0 var(--br-5xs) var(--br-5xs);
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-lgi) 7px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    margin-left: 485px;
+  }
+  .m2 {
+    flex: 1;
+    position: relative;
+  }
+  .user-initial2,
+  .user-selection {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .user-initial2 {
+    height: 48px;
+    width: 48px;
+    border-radius: var(--br-81xl);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #fff;
+    overflow: hidden;
+    flex-shrink: 0;
+    padding: var(--padding-5xs) var(--padding-3xs) var(--padding-4xl);
+    box-sizing: border-box;
+    font-size: var(--body-small-bold-size);
+  }
+  .user-selection {
+    width: 252px;
+    gap: var(--gap-3xs);
+    text-align: center;
+    color: var(--color-white);
+  }
+  .content-group,
+  .vertical-stack1 {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .content-group {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+  }
+  .vertical-stack1 {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 0 0 var(--padding-11xs);
+    box-sizing: border-box;
+  }
+  .spacer-icon3 {
+    height: 48px;
+    width: 48px;
+    position: relative;
+    border-radius: var(--br-81xl);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .blank-line10,
+  .eko-hotel-suites-offers-a-wi {
+    margin: 0;
+  }
+  .multiple-restaurants-and-bars1 {
+    margin-bottom: 0;
+  }
+  .multiple-restaurants-and-bars {
+    margin: 0;
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .blank-line11 {
+    margin: 0;
+  }
+  .a-swimming-pool1 {
+    margin-bottom: 0;
+  }
+  .a-swimming-pool {
+    margin: 0;
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .blank-line12 {
+    margin: 0;
+  }
+  .fitness-center1 {
+    margin-bottom: 0;
+  }
+  .fitness-center {
+    margin: 0;
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .blank-line13 {
+    margin: 0;
+  }
+  .spa1 {
+    margin-bottom: 0;
+  }
+  .spa {
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .blank-line14,
+  .spa {
+    margin: 0;
+  }
+  .conference-facilities1 {
+    margin-bottom: 0;
+  }
+  .conference-facilities {
+    margin: 0;
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .blank-line15 {
+    margin: 0;
+  }
+  .beautiful-views-of-the-atlanti1 {
+    margin-bottom: 0;
+  }
+  .beautiful-views-of-the-atlanti {
+    margin: 0;
+    font-size: inherit;
+    padding-left: var(--padding-2xl);
+  }
+  .blank-line16 {
+    margin: 0;
+  }
+  .official-website1 {
+    text-decoration: underline;
+  }
+  .official-website {
+    color: inherit;
+  }
+  .for-more-information-or-to-boo {
+    margin: 0;
+  }
+  .eko-hotel-container {
+    height: 313px;
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-width: 371px;
+    max-width: 100%;
+  }
+  .hotel-details {
+    width: 629px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap-3xs);
+  }
+  .content3,
+  .hotel-details,
+  .hotel-selection {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .content3 {
+    flex: 1;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .hotel-selection {
+    width: 817.2px;
+    flex-direction: row;
+    padding: 0 5px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+  }
+  .navigation-arrow-24-outlin {
+    height: 35px;
+    width: 35px;
+    position: relative;
+    border-radius: 97.22px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .footer {
+    align-self: stretch;
+    height: 66px;
+    border-radius: var(--br-81xl);
+    border: 1px solid var(--off-text-color);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: var(--padding-11xs) 11px var(--padding-5xs) 26px;
+  }
+  .iphone-13-mini-1 {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .iphone-13-mini-1 {
+    align-self: stretch;
+    background-color: var(--color-white);
+    flex-shrink: 0;
+    padding: 137.5px var(--padding-lgi) 53px;
+    gap: 44px;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--body-regular-size);
+    color: var(--background-gray);
+    font-family: var(--body-small-bold);
+  }
+  .chat-page {
+    width: 100%;
+    height: 846px;
+    position: relative;
+    background-color: var(--background-white);
+    padding: 0 76px 775px;
+    gap: 2px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 750px) {
+    .great-lagos-is-container {
+      min-width: 100%;
+    }
+    .container {
+      padding-bottom: 77px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 675px) {
+    .left-arrow-24-outline-parent {
+      gap: 159px;
+    }
+    .eko-hotel-container {
+      min-width: 100%;
+    }
+    .iphone-13-mini-1 {
+      padding-top: 58px;
+      padding-bottom: 22px;
+      box-sizing: border-box;
+    }
+    .chat-page {
+      padding-left: var(--padding-19xl);
+      padding-right: var(--padding-19xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .left-arrow-24-outline-parent {
+      gap: 79px;
+    }
+    .vertical-padding {
+      gap: 17px;
+    }
+    .content-parent {
+      gap: var(--gap-6xl);
+    }
+    .content3 {
+      gap: 16px;
+    }
+    .iphone-13-mini-1 {
+      gap: 22px;
+    }
+    .chat-page {
+      height: auto;
+    }
+  }
