@@ -146,6 +146,7 @@ header nav.navigation ul a{
     background: #0056B3;
     padding: 10px 20px;
     gap: 11px;
+    color: white;
 }
 .cta:hover {
     background: transparent;
