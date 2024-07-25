@@ -1,0 +1,66 @@
+
+    body {
+        margin:0;
+        padding:0;
+        box-sizing :border-box;
+        background-color: #FFFFFF;
+        max-width: 100%;
+    }
+        header {
+            position: fixed;
+        top: 0;
+      left: 0;
+      width:100%;
+      padding: 1em;
+      text-align:center;
+    }
+
+    header nav ul{list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;}
+      h2 {
+        color: #0000FF;
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+      
+       h3 {
+        color: #000000;
+        font-size: 24px; 
+        margin-bottom: 10px;
+      }
+      
+      p {
+        color: #0000FF;
+        font-size: 18px;  
+      margin-bottom: 20px;
+      }
+           nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+             }
+    
+        .hero {
+        background-color: #FFFFFF; 
+        display: flex;
+        color: #0000FF;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; 
+      }
+          .customersatisfaction, .Reliabitity, .Availability, .User-Friendly,
+           .Personalized-Recommendations, .Efficient 
+           { background-color: #FFFFFF; 
+        padding: 20px; 
+        margin-top: 20px; /* Add some margin between sections */
+            grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        align-content: end;
+        justify-content: end;
+        padding: 20px;
+        height:100vh;
+    }

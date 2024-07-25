@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #F5F5F5;
+}
+
+a { 
+    transition: 0.3s all ease-in-out ;
+    color: white;}
+:root {
+    --coloran: #007BFF;
+}
+.container {
+    padding: 0 6rem;
+}
+
+
+
+/* handburger logo */
+.hand {
+    position: relative;
+    width: 40px;
+    height: 26.31px;
+    top: 13.15px;
+    left: 4.38px;
+    display: none;
+}
+.hand span.menu {
+    content: "";
+    display: block;
+    background-color: white;
+    position: absolute;
+    width: 35px;
+    height: 3.5px;
+    transition:all .5s ease-in-out;
+    
+}
+.hand span:nth-child(1) {
+    transform: translateY(-10px);
+}
+.hand span:nth-child(3) {
+    transform: translateY(10px);
+}
+
+
+.hand:hover span:nth-child(1) {
+    transform: rotateZ(45deg);
+}
+.hand:hover span:nth-child(3) {
+    transform: rotate(-45deg);
+}
+.hand:hover span:nth-child(2) {
+    transform: rotate(720deg);
+    opacity: 0;
+}
+
+
+header {
+    display: flex;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px 0px #B6B6B640;
+    justify-content: space-between;
+    align-items: center;
+    height: 97px;
+}
+header nav.navigation ul{
+    list-style-type: none;
+    display:flex;
+    gap: 10px;
+}
+header nav.navigation ul a{
+    display: block;
+    color: var(--coloran);
+    text-decoration: none;
+    padding: 10px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 7px;
+    text-align: center;
+
+}
+
+/* hero section */
+.navigation ul li a:hover {
+    color: white;
+
+}
+ span{
+    color: #007BFF;
+ }
+.hero{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    font-family: raleway;
+    font-size: 30px;
+    gap: 20px;
+}
+.hero button{
+    width: 20%;
+    font-family: raleway;
+    background-color:#0056B3;
+    color:#F5F5F5;
+    padding: 15px;
+    border-radius: 7px;
+    font-size: 18px;
+    border: none;
+}
+
+.testimonies{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 100px;
+    
+ }
+
+.test1{
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 5px 2px 6px #B6B6B640;
+    background-color: white; 
+    width: 70%;
+}
+.test1 img{
+    height: 100px;
+    padding: 7px;
+}
+.test2{
+    display: flex;
+    margin-left: 30em;
+    align-items: center;
+    box-shadow: 0px 5px 2px 6px #B6B6B640;
+    background-color: white; 
+    width: 70%;
+}
+.test2 img{
+    height: 100px;
+    padding: 7px;
+}
+.test1 p{
+    font-family: lato;
+    font-size: 20px;
+    padding: 10px;
+}
+.test2 p{
+    font-family: lato;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+@media(max-width:1200px ) {
+    /* hero section */
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        margin-top: 4.5rem;
+    }
+    .left_infor{
+
+        margin-top: -4rem;
+        min-width: 530px;
+    }
+    .left_infor h1{
+        font-size: 36px;
+        line-height: 42.26px;
+        /* white-space: nowrap; */
+    }
+    .left_infor h3{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 15.2px;
+    }
+
+    
+}
